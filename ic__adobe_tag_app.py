@@ -11,9 +11,7 @@ import json
 import time
 
 with st.echo(code_location='below'):
-    with st.expander("Delete campaign"):
-        if st.text_input("Enter passcode") == "OnlineMO2":
-            if st.button('Delete campaign'):
-                with st.spinner('Wait for it...'):
-                    time.sleep(2)
+    st.title('Adobe tag generator')
+    with st.spinner('Wait for it...'):
+        time.sleep(2)
     
